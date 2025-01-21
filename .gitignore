@@ -1,7 +1,6 @@
 node_modules
 
 public
-css
 src/assets/scss
 # secrets and errors
 .env
