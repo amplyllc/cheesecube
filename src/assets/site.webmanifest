@@ -1,0 +1,14 @@
+{
+    "name": "cheesecube.net",
+    "short_name": "cheese ",
+    "icons": [
+        {
+            "src": "/assets/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#feffce",
+    "background_color": "#feffce",
+    "display": "standalone"
+}

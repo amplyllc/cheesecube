@@ -1,0 +1,16 @@
+# explicit commands for building the site
+# and the folder to publish
+[build]
+command = "npm run build"
+publish = "public"
+
+[[redirects]]
+from = "/*"
+to = "/404/"
+status = 404
+
+[[redirects]]
+from = "/*"
+to = "/500/"
+status = 500
+

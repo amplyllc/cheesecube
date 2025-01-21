@@ -1,0 +1,10 @@
+{
+    "name": "Cheese Cube",
+    "description": "Literally just a cheese cube.",
+    "url": "https://cheesecube.net",
+    "color": "#feffce",
+    "authorName": "Amply LLC",
+    "authorUrl": "https://amply.llc",
+    "favicon": "https://cheesecube.net/assets/favicon.svg",
+    "socialImg": "/assets/img/logo.png"
+}

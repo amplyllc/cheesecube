@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include 'components/head.njk' %}
+    </head>
+    <body>
+          
+        <main class="{{ name }}">
+            {{ content | safe }}
+        </main>
+
+        <div id="noscript">
+            <p>Noscript Error: Please enable javascript</p>
+        </div>
+
+        {% if (home) %}
+        <script src="/assets/js/display-image.js"></script>
+        <script src="/assets/js/on-scroll.js"></script>
+        {% endif %}
+
+    </body>
+</html>

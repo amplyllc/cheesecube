@@ -1,0 +1,15 @@
+node_modules
+
+public
+css
+src/assets/scss
+# secrets and errors
+.env
+.log
+
+# macOS related files
+.DS_Store
+
+# vscodium related files
+.vscodepublic
+.vscode

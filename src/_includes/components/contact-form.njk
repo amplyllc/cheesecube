@@ -1,0 +1,16 @@
+<form id="contact-form" method="POST" class="form" name="submit" action="/success" netlify-honeypot="bot-field" netlify>
+    <input type="text" name="name" placeholder="Your name" aria-label="Your name" class="item" required>
+    <input type="email" name="email" placeholder="Email" class="item" required>
+
+    <label for="cheesecube">Upload your cheesecube:</label>
+    <input type="file" id="cheesecube" name="cheesecube" accept="image/png, image/jpeg" required/>
+
+    <p class="hidden">
+        <label>
+        Don’t fill this out if you’re human: <input name="bot-field"/>
+        </label>
+    </p>
+    <div class="btn-div">
+        <button class="submit" type="submit">Send</button>
+    </div>
+</form>
